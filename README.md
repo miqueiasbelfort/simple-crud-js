@@ -1,5 +1,5 @@
 # Um Crud simples com React js 
-* Esse crud possui feito com axios possui get, post, put e delete
+* Esse crud foi feito com axios possui get, post, put e delete
 
 &nbsp;
 
