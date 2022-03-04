@@ -1,11 +1,11 @@
 # Um Crud simples com React js 
-* Esse crud foi feito com axios possui get, post, put e delete
+* Esse crud foi feito com axios, possui get, post, put e delete
 
 &nbsp;
 
-## 💻 Funcionalidades iniciais do projeto
+## 💻 Como rodar a API para poder ultilizar o crud
 * A Api foi feita com a estenção json-server
-* Para iniciar a fake_api entre na pasta fake_api e de um "npm run start-json"
+* Para iniciar a API fake entre na pasta fake_api e de um "npm run start-json"
 
 &nbsp;
 
