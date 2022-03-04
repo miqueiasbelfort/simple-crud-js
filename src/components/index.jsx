@@ -2,29 +2,6 @@ import {Button, DivPopup} from "./style"
 import axios from "axios"
 import {useEffect, useState} from "react"
 
-/*
-<DivPopup 
-                            className="card-body popup"
-                        >
-                            <h3>Editar Post</h3>
-                            <input 
-                                type="text" 
-                                className="form-control" 
-                                id="formGroupExampleInput" 
-                                placeholder="Let's go chance the world!"
-                                onChange={e => setEditeText(e.target.value)}
-                            />
-                            <Button
-                                id={`${rePost.id}`}  
-                                className="mt-2"
-                                background="none" 
-                                backgroundHover="#ffc107"
-                                onClick={editePost}    
-                            >Salvar</Button>
-                        </DivPopup>
-*/
-
-
 function Main(){
 
     // get the data
@@ -33,7 +10,7 @@ function Main(){
     const [text, setText] = useState()
     // get the input value of edite
     const [editText, setEditeText] = useState()
-    // cheking if click in button edit
+    // cheking if click in button edite
     const [checked, setChecked] = useState("none")
 
     // get the api with axios.get
@@ -83,8 +60,8 @@ function Main(){
         setChecked("none")
     }
 
-    // show edit post
-    const showEdit = () => {
+    // show edite post
+    const showEdite = () => {
         setChecked("block")
     }
 
@@ -123,7 +100,7 @@ function Main(){
                             <Button
                                 background="none" 
                                 backgroundHover="#198754"
-                                onClick={showEdit}    
+                                onClick={showEdite}    
                             >Editar</Button>
                         </div>
                         <DivPopup 
